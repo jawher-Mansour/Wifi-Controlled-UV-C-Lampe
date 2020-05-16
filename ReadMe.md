@@ -2,7 +2,7 @@
 
 This project is based on LC Technologyy ESP8266-01 Relay Module to control an UV-C lampe throught a web browser  
 
-[alt text](https://github.com/jawher-Mansour/pics/blob/master/wifirelay2.png)
+![alt text](https://github.com/jawher-Mansour/pics/blob/master/wifirelay2.png)
 
 
 ### Description
@@ -11,9 +11,9 @@ This project is based on LC Technologyy ESP8266-01 Relay Module to control an UV
 
   As you may notice throught out the schematics ,This board does not use GPIO0 or GPIO2 of the ESP8266 in order to activate the relay, it use the serial communication instead of it.
 
-[alt text](https://github.com/jawher-Mansour/pics/blob/master/esp8266_schematics.jpg)
+![alt text](https://github.com/jawher-Mansour/pics/blob/master/esp8266_schematics.jpg)
 
  So in order to control the relay , the ESP module must send commands to the STC15F104 microcontroller that will triger the relay , the code handels this process since the ESP will act as an access point and using the following interface (on a web browser) you will be able to controll the Lampe.
 
-[alt text](https://github.com/jawher-Mansour/pics/blob/master/interface.png)
+![alt text](https://github.com/jawher-Mansour/pics/blob/master/interface.png)
 
